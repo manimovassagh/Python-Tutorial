@@ -1,0 +1,5 @@
+int() 
+float()
+str()
+number = int(2.4)
+print(number)
