@@ -1,2 +1,2 @@
 Python Tutorial for Youtbe Tech Talk with Mani
-Functions and then 
+Functions and then object oriented
