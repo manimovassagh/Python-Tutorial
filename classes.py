@@ -1,9 +1,14 @@
 class User:
-    name = "mani"
-    email = "test@gmail.com"
+    def __init__(self, name, age):
+      self.name = name
+      self.age = age
     def login(self):
-        print("logged in")
-    def logout(self):
-        print("logged out")
-   
-user_one = User()
+        print("User logged in")
+
+class Room:
+    def __init__(self, room_number):
+        self.room_number = room_number 
+    def reserve(self):
+        print("Room reserved")
+room = Room(124)
+room.reserve()
