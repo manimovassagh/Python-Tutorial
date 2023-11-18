@@ -1,7 +1,10 @@
+from datetime import datetime
+
 def logger(function):
     def wrapper():
-        print("This is a logger decoraer")
+        print(datetime.now())
         function()
+        print(datetime.now())
     return wrapper
 
 
