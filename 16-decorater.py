@@ -1,5 +1,5 @@
 from datetime import datetime
-
+import time
 def logger(function):
     def wrapper():
         print(datetime.now())
@@ -11,5 +11,11 @@ def logger(function):
 @logger
 def check():
     print("This is a check function")
+    print(time.now())    
+
 
 check()
+
+
+
+
