@@ -1,5 +1,6 @@
 import time
 
+
 def logger(function):
     def wrapper():
         print(time.localtime())
@@ -16,4 +17,3 @@ def check():
 
 
 check()
-
