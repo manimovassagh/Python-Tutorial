@@ -1,11 +1,11 @@
 import time
 
 
-def logger(function):
+def logger(fn):
     def wrapper():
-        print(time.localtime())
-        function()
-        print(time.localtime())
+        print(time.time())
+        fn()
+        print(time.time())
 
     return wrapper
 
@@ -13,7 +13,6 @@ def logger(function):
 @logger
 def check():
     print("This is a check function")
-    print(time.time())
 
 
 check()
