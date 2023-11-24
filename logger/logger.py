@@ -1,6 +1,9 @@
-
 def log_me():
-    print("I am a logger from your package")
+    return "I am a logger from your package"
+
+
+def add(x, y):
+    return x + y
 
 
 class Student:
